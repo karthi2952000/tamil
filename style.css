@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Pacifico&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
+
+}
+li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+header
+{
+    background-color: lightyellow;
+    height: 15vh;
+    width: 100%;
+    padding: 10px;
+    
+    
+}
+nav
+{
+    /* background-color:lightcoral; */
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo
+{
+    /* background-color: aqua; */
+    height: 60px;
+    width: 100px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.title
+{
+    /* background-color:cadetblue; */
+    height: 40px;
+    width: 40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1
+{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-container 
+{
+    /* background-color: crimson; */
+    height: 50px;
+    width: 40%;
+    
+    overflow: auto;
+    padding: 10px;
+}
+ .nav-container ul 
+{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+
+}
+.nav-container  a 
+{
+   /* background-color: white; */
+   display: block;
+   border-radius: 5px;
+    /* height: 20px; 
+   width: 30px;  */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: larger;
+   color: black;
+}
+.nav-container ul li a:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+
+
+main
+{
+    background-color: black;
+    height:70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #a
+{
+    float: left;
+    height: 100%;
+    width: 50%;
+
+}
+ main #b
+ {
+    float: right;
+    height: 70vh;
+    width: 50%;
+    background-color: aliceblue;
+ }
+
+#b h1
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer
+{
+    background-color: white;
+    height: 25vh;
+    width: 100%;
+    padding: 10px;
+}
+.nav-link
+{
+    /* background-color: lightblue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px; 
+}
+.cont
+{
+    /* background-color: darkgoldenrod; */
+    /* height: 200px;
+    width: 200px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-bottom: 15px;
+}
+.cont h1:hover 
+{
+    text-decoration:solid;
+    color: red;
+}
+.link1 li a:hover
+{
+    text-decoration:solid;
+    color: orangered;
+}
+.sub1
+{
+    /* background-color: brown; */
+    /* height: 200px; 
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-bottom: 9px;
+}
+
+.sub1 h1:hover
+{
+    text-decoration:solid;
+    color: darkseagreen;
+}
+.sub2
+{
+    /* background-color:blueviolet; */
+    /* height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-bottom:15px;
+}
+.sub2 h1
+{
+    padding-top: 15px;
+}
+.sub2 h1:hover
+{
+    text-decoration:solid;
+    color: darkgoldenrod;
+}
+.sub2 .link2
+{
+    padding-top: 10px;
+}
+ .sub2 .link2 .em:hover
+{
+   text-decoration: underline;
+    color: orangered;
+}
+.sub2 .link2 .ph:hover
+{
+   text-decoration: underline;
+    color: orangered;
+}
+
+.sub3
+{
+    /* background-color: darkgoldenrod; */
+    /* height: 200px;
+    width: 200px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-bottom: 25px;
+}
+.sub3 h1
+{
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sub3 h1:hover
+{
+    text-decoration: solid;
+    color: yellow;
+}
+.link ul
+{
+    /* background-color: aqua; */
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.link a:hover
+{
+    text-decoration: underline;
+    color: orange;
+}
+.so ul
+{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 40px;
+}
+
+.so i
+{
+    display: flex;
+    background-color:black;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;
+}
+.so li i:hover
+{
+    text-decoration: solid;
+    color: blue;
+}
+
+
+.sub4
+{
+    /* background-color: chartreuse; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    
+} 
+.nav-bar 
+{
+    /* background-color: blueviolet; */
+    /* padding: 10px; */
+    width: 30%;
+    margin-top: 15px;
+    
+    
+}
+.nav-bar ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100%;
+    font-weight: 400;
+    padding: 10px;
+
+}
+small
+{
+    color: black;
+}
+hr
+{
+    width: 30px;
+border-color: blue;
+}
+.nav-bar ul li a:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+small:hover
+{
+    text-decoration: solid;
+    color: red;
+}
+
+
+
